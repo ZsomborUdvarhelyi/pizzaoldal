@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+  }
+  /* Add a black background color to the top navigation */
+  .topnav {
+      background-color: #333;
+      overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+      background-color: #d11717;
+      color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+  }
+  h1, h2, a, p {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    overflow: hidden
+  }
+  
+  /* Main */
+  .main {
+    text-align: center;
+    background: url("https://img.grouponcdn.com/deal/mCAFXuquUtdd6juyeN3E/QF-700x420/v1/c700x420.jpg") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+  }
+  
+  .main .container {
+    position: relative;
+    top: 100px;
+  }
+  
+  .main h1 {
+    color: black;
+    margin: 0;
+    font-size: 100px;
+  }
+  
+  .main p {
+    color: black;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+  }
+  
+  .main .btn {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Supporting */
+  .supporting {
+    background-color: #333;
+    padding: 50px 0 50px;
+    text-align: center;
+  }
+  
+  .supporting .col {
+    float: left;
+    padding: 10px;
+    width: 28%;
+  }
+  
+  .supporting h2 {
+    color: #d11717;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .supporting p {
+    color: #efefef;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .supporting .btn {
+   background-color: white;
+    color: black;
+    font-size: 18px;
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* Feature */
+  .feature {
+    background: url("http://cdn-jpg.thedailymeal.net/sites/default/files/2-chocolate%20chip%20cookies-anne%20peterson-flickr.jpg") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+  }
+  
+  .feature .container {
+    position: relative;
+    top: 200px;
+  }
+  
+  .feature h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: url("https://img.grouponcdn.com/deal/mCAFXuquUtdd6juyeN3E/QF-700x420/v1/c700x420.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+  }
+  
+  .footer .container {
+    position: relative;
+    top: 100px;
+  }
+  
+  .footer h2 {
+    color: black;
+    font-size: 30px;
+    margin: 0 0 0px 0;
+    padding: 0px 0 0;
+  }
+  
+  .footer p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 0 0px 0;
+  }
+  
+  .footer .btn {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.btn:hover {
+    background:#d11717;
+    color:#000;
+  }
